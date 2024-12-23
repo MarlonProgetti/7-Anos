@@ -98,3 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Inicializa o jogo com a primeira pergunta
   loadQuestion();
 });
+
+let footer = document.getElementById("footer");
+footer.innerHTML += `\u{1F31E}`;
+footer.innerHTML += `\u{1F496}`;
